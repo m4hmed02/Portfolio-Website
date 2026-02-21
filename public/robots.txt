@@ -1,0 +1,5 @@
+# robots.txt — Muhammad Ahmed Portfolio
+User-agent: *
+Allow: /
+
+Sitemap: https://mahmed-mern-dev.vercel.app/sitemap.xml

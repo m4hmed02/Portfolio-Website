@@ -115,16 +115,16 @@ export function HeroTyping() {
             transition={{ duration: 0.6, delay: 0.8 }}
             className="flex gap-6 justify-center"
           >
-            <a href="mailto:2704muhammadahmed@gmail.com" className="w-12 h-12 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:shadow-lg transition-all duration-300">
+            <a href="mailto:2704muhammadahmed@gmail.com" aria-label="Send Email" className="w-12 h-12 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:shadow-lg transition-all duration-300">
               <Mail className="w-5 h-5" />
             </a>
-            <a href="https://wa.me/923115168949" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:shadow-lg transition-all duration-300">
+            <a href="https://wa.me/923115168949" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" className="w-12 h-12 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:shadow-lg transition-all duration-300">
               <MessageCircle className="w-5 h-5" />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:shadow-lg transition-all duration-300">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="View GitHub Profile" className="w-12 h-12 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:shadow-lg transition-all duration-300">
               <Github className="w-5 h-5" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:shadow-lg transition-all duration-300">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="View LinkedIn Profile" className="w-12 h-12 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:shadow-lg transition-all duration-300">
               <Linkedin className="w-5 h-5" />
             </a>
           </motion.div>
