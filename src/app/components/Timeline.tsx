@@ -6,17 +6,8 @@ export function Timeline() {
     {
       icon: Briefcase,
       type: "work",
-      title: "Senior MERN Stack Developer",
-      organization: "Tech Solutions Ltd.",
-      period: "2023 - Present",
-      description: "Leading full-stack development projects, implementing scalable architectures, and mentoring junior developers."
-    },
-    {
-      icon: Briefcase,
-      type: "work",
       title: "Full Stack Developer",
       organization: "Digital Innovations",
-      period: "2021 - 2023",
       description: "Developed multiple e-commerce platforms and SaaS applications using MERN stack with focus on performance optimization."
     },
     {
@@ -25,14 +16,14 @@ export function Timeline() {
       title: "Enterprise SaaS Platform Launch",
       organization: "Major Project Achievement",
       period: "2022",
-      description: "Successfully launched a multi-vendor rental platform serving 1000+ users with 99.9% uptime."
+      description: "Successfully launched a multi-vendor rental platform."
     },
     {
       icon: GraduationCap,
       type: "education",
       title: "Bachelor's in Computer Science",
-      organization: "University of Technology",
-      period: "2017 - 2021",
+      organization: "Air University",
+      period: "2023 - 2027",
       description: "Graduated with honors, specialized in web technologies and software engineering."
     }
   ];
